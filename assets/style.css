@@ -58,6 +58,12 @@ html, body {
   }
 }
 
+@media (max-width: 364px) {
+  .taccuino-content {
+    transform: translateX(90px) scale(0.77);
+  }
+}
+
 .todo-input {
   display: flex;
   justify-content: space-between;
@@ -161,4 +167,5 @@ li::before {
   background: #F4A460;
   border-radius: 45% 55% 50% 40%; /* forma irregolare */
   transform: rotate(-12deg) scale(1.1) translate(-15px, -5px);
+
 }
