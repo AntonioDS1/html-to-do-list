@@ -154,8 +154,15 @@ li::before {
 }
 
 @media (max-width: 480px) {
-    .task-list {
-        transform: scale(0.87);
-    }
+
+  .taccuino {
+    background-size: contain;
+  }
+
+
+  .taccuino-content {
+    transform: scale(0.77) translateX(120px) ;
+  }
 }
+
 
