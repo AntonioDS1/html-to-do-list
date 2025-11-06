@@ -153,3 +153,9 @@ li::before {
   transform: rotate(-12deg) scale(1.1) translate(-15px, -5px);
 }
 
+@media (max-width: 480px) {
+    .task-list {
+        transform: scale(0.87);
+    }
+}
+
