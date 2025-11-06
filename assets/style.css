@@ -66,8 +66,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
-transform: translate(-8rem, -5rem);
-gap: 20px;
+transform: translate(-8rem, -6rem);
+gap: 11px;
 list-style: none;
 }
 
@@ -144,6 +144,7 @@ li {
 margin-left: 30px;
 position: relative;
 width: 280px;
+transform: translateY(8px);
 }
 
 li::before {
@@ -176,6 +177,52 @@ transform: rotate(-12deg) scale(1.1) translate(-15px, -5px);
   transform: translate(-7rem, -8px);
 }
 
+.delete-item {
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  font-size: 18px;
+}
 
+.delete-item:hover {
+  transform: scale(1.2);
+}
 
+.delete-item:active {
+  transform: scale(0.8);
+}
 
+.check-item {
+  /* Rimuove lo stile nativo */
+  appearance: none;
+  -webkit-appearance: none;
+  
+  width: 20px;
+  height: 20px;     /* leggermente più grande del default */
+
+  border: 2px solid #1fbf52;   /* verde */
+  border-radius: 4px;
+
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  background: #fff;            /* bianco da non checked */
+  transform: translateY(6px);
+}
+
+/* Stato checked */
+.check-item:checked {
+  background: #1fbf52;         /* verde */
+  border-color: #1fbf52;
+}
+
+/* Spunta */
+.check-item:checked::after {
+  content: "✔";
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: -1px;
+  left: 3px;
+}
