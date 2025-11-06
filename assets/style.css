@@ -30,7 +30,7 @@ html, body {
     align-items: center;
     flex-direction: column;
     margin-top: 30px;
-    z-index: 1000;
+    z-index: 100;
 }
 
 @media (max-width: 878px) {
@@ -160,4 +160,5 @@ li::before {
 
 .check-or-delete {
   margin-left: 10px;
+  z-index: 1000;
 }
