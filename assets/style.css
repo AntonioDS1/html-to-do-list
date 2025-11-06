@@ -166,7 +166,8 @@ li::before {
 
 
   .taccuino-content {
-    transform: scale(0.77) translateX(120px) ;
+    transform: scale(0.77) translate(120px, 2px);
   }
 }
+
 
