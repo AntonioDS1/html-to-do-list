@@ -64,6 +64,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   transform: translate(-8rem, -5rem);
   gap: 20px;
   list-style: none;
@@ -123,7 +124,12 @@ html, body {
     }
   }
   
-
+  /* Su smartphone piccoli */
+  @media (max-width: 480px) {
+    body {
+      background-size: auto 110%; /* un po’ più zoom per nascondere gli spazi vuoti */
+    }
+  }
 
 .list-item {
   display: flex;
@@ -163,6 +169,3 @@ li::before {
     transform: scale(0.77) translateX(120px) ;
   }
 }
-
-
-
