@@ -143,6 +143,7 @@ html, body {
 li {
   margin-left: 30px;
   position: relative;
+  width: 280px;
 }
 
 li::before {
@@ -170,6 +171,7 @@ li::before {
     transform: scale(0.77) translate(120px, 2px);
   }
 }
+
 
 
 
