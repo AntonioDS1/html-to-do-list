@@ -64,7 +64,6 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   transform: translate(-8rem, -5rem);
   gap: 20px;
   list-style: none;
@@ -164,5 +163,6 @@ li::before {
     transform: scale(0.77) translateX(120px) ;
   }
 }
+
 
 
