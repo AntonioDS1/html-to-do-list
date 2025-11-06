@@ -159,9 +159,13 @@ li::before {
 }
 
 .check-or-delete {
-  padding-left: -30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   z-index: 1000;
 }
+
 
 
 
