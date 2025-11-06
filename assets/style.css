@@ -45,7 +45,7 @@ html, body {
     background-size: 450px;
   }
   .taccuino-content {
-    transform: translateX(120px) ;
+    transform: translate(120px, 2px);
   }
 }
 
@@ -169,5 +169,6 @@ li::before {
     transform: scale(0.77) translate(120px, 2px);
   }
 }
+
 
 
