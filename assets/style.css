@@ -171,3 +171,11 @@ transform: rotate(-12deg) scale(1.1) translate(-15px, -5px);
   transform: scale(0.77) translate(120px, 8px);
 }
 }
+
+.todo-input {
+  transform: translate(-7rem, -8px);
+}
+
+
+
+
