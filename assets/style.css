@@ -159,7 +159,8 @@ li::before {
 }
 
 .check-or-delete {
-  margin-left: 30px;
+  margin-left: -30px;
   z-index: 1000;
 }
+
 
