@@ -227,4 +227,9 @@ transform: rotate(-12deg) scale(1.1) translate(-15px, -5px);
   left: 3px;
 }
 
+@media (min-width: 650px) {
+    .check-or-delete {
+      transform: translateY(8px);
+    }
+  }
 
