@@ -124,12 +124,7 @@ html, body {
     }
   }
   
-  /* Su smartphone piccoli */
-  @media (max-width: 480px) {
-    body {
-      background-size: auto 110%; /* un po’ più zoom per nascondere gli spazi vuoti */
-    }
-  }
+
 
 .list-item {
   display: flex;
@@ -157,3 +152,4 @@ li::before {
   border-radius: 45% 55% 50% 40%; /* forma irregolare */
   transform: rotate(-12deg) scale(1.1) translate(-15px, -5px);
 }
+
